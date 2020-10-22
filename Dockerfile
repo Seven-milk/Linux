@@ -22,10 +22,7 @@ RUN apt-get install aptitude -y
 # Install
 RUN aptitude install git make curl tmux vim  -y
 # && echo 6
-RUN aptitude install gcc gfortran g++ m4 csh perl c++ cpp -y
-# mkdir
-RUN mkdir /home/BUILD_WRF/ /home/BUILD_WRF/{TESTe,TESTLIB,LIB,GEODATA,GRIBDATA,Other}
-RUN mkdir /home/BUILD_WRF/LIB /home/BUILD_WRF/LIB/{grib2,NETCDF}
+RUN aptitude install gcc=6.3.0 gfortran=6.3.0 g++=6.3.0 m4 csh perl c++ cpp -y
 # GIT
 RUN mkdir /home/GIT && cd /home/GIT && git init && git clone https://github.com/Seven-milk/Linux
 # ENV
