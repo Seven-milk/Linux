@@ -136,3 +136,5 @@ export JASPERLIB=$DIR/grib2/lib
 export JASPERINC=$DIR/grib2/include
 # mpich
 export PATH=$DIR/mpich/bin:$PATH
+# WRF
+export WRF_DIR=/home/z786909151/BUILD_WRF/WRF
