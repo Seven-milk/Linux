@@ -26,6 +26,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'connorholyday/vim-snazzy'
 Plug 'gcmt/wildfire.vim'
+Plug 'tpope/vim-surround'
 
 call plug#end()
 let g:SnazzyTransparent = 1
