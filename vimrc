@@ -33,6 +33,7 @@ Plug 'connorholyday/vim-snazzy'
 Plug 'gcmt/wildfire.vim'
 Plug 'tpope/vim-surround'
 Plug 'vim-scripts/winmanager'
+Plug 'vim-scripts/c.vim'
 
 call plug#end()
 let g:SnazzyTransparent = 1
